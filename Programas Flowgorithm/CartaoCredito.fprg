@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Tiago Duque"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-30 12:14:17 "/>
+        <attribute name="created" value="VGlhZ28gRHVxdWU7REVTS1RPUC1UQk5NRlNNOzIwMjEtMTEtMzA7IjExOjU2OjI4ICI7MzM1NA=="/>
+        <attribute name="edited" value="VGlhZ28gRHVxdWU7REVTS1RPUC1UQk5NRlNNOzIwMjEtMTEtMzA7IjEyOjE0OjE3ICI7MTszNDU1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numero" type="String" array="False" size=""/>
+            <input variable="cliente"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <input variable="numero"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente s&#243; realizamos vendas com o cartao de credito&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Tiago Duque"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-30 02:04:44 "/>
+        <attribute name="created" value="VGlhZ28gRHVxdWU7REVTS1RPUC1UQk5NRlNNOzIwMjEtMTEtMzA7IjEyOjI1OjUxICI7MzM0Nw=="/>
+        <attribute name="edited" value="VGlhZ28gRHVxdWU7REVTS1RPUC1UQk5NRlNNOzIwMjEtMTEtMzA7IjAyOjA0OjQ0ICI7MTszNDUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <output expression="&quot;Digite o seu nome:&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite o seu sobrenome:&quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;O seu nome completo &#233;:  &quot; &amp; nome &amp; &quot; &quot; &amp; sobrenome" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
